@@ -1,0 +1,33 @@
+// -- GENERAL
+*, body, html {
+  font-family: 'AvenirNext-Regular';
+  outline: 0;
+  margin: 0;
+}
+
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100vh !important;
+}
+
+button {
+  border: none;
+}
+
+@font-face {
+  font-family: "AvenirNext-Regular";
+  src: url("./assets/font/AvenirNext-Regular.woff") format("woff"),
+}
+
+@font-face {
+  font-family: "AvenirNext-DemiBold";
+  src: url("./assets/font/AvenirNext-DemiBold.woff") format("woff"),
+}
+
+@font-face {
+  font-family: "AvenirNext-Bold";
+  src: url("./assets/font/AvenirNext-DemiBold.woff") format("woff"),
+}
