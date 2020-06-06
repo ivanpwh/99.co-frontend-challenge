@@ -88,15 +88,22 @@ export default {
     this.init()
   },
   methods: {
+    // initialization data
     init () {
       this.selectedData = this.dataDummy[0]
     },
+
+    // function open modal
     openModal () {
       this.showModal = true
     },
+
+    // function close modal
     closeModal () {
       this.showModal = false
     },
+
+    // set next data
     next () {
       const currentId = this.selectedData.id
 
@@ -109,6 +116,8 @@ export default {
         }
       })
     },
+
+    // set previous data
     prev () {
       const currentId = this.selectedData.id
 

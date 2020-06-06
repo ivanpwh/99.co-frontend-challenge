@@ -47,12 +47,17 @@ export default {
     map: require('@/assets/image/map@2x.png')
   }),
   methods: {
+    // function open modal
     openModal () {
       this.$emit('openModal')
     },
+
+    // function close modal
     closeModal () {
       this.$emit('closeModal')
     },
+
+    // change view map modal
     openMap () {
       this.isMap = true
     }

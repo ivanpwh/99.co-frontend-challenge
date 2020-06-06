@@ -22,11 +22,13 @@ export default {
     isModal: true
   }),
   methods: {
+    // function close modal
     closeModal () {
       this.$emit('closeModal')
     }
   },
   watch: {
+    // change modal status
     showModal (data) {
       if (data === true) {
         this.isModal = true
